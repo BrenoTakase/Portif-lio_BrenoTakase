@@ -1,0 +1,30 @@
+.cabecalho {
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+    background-color: var(--background);
+}
+
+.cabecalho__Nome {
+    font-size: 40px;
+    color: var(--cabecalho-palavras);
+}
+
+.cabecalho__Lista {
+    display: flex;
+    list-style-type: none;
+}
+
+.cabecalho__ListaConteudo {
+    padding-left: 3vw;
+    font-size: 20px;
+}
+
+.cabecalho__ListaConteudo a { 
+    color: var(--cabecalho-palavras); 
+} 
